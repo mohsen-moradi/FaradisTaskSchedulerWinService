@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<TaskScheduleConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MinutelySchedules>
+  <MinutelyTask>
+      <TaskName>MinutelyTask1</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder1\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>5</Period>
+    </MinutelyTask>
+	<MinutelyTask>
+      <TaskName></TaskName>
+      <TaskFileAddress></TaskFileAddress>
+      <TaskStatus>false</TaskStatus>
+      <TaskStartDate>2024/11</TaskStartDate>
+      <TaskStartTime>10</TaskStartTime>
+      <Period>0</Period>
+    </MinutelyTask>
+    <MinutelyTask>
+      <TaskName>MinutelyTask2</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder2\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>5</Period>
+    </MinutelyTask>
+  </MinutelySchedules>
+  <HourlySchedules>
+    <HourlyTask>
+      <TaskName>HourlyTask1</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder3\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </HourlyTask>
+	<HourlyTask>
+      <TaskName> </TaskName>
+      <TaskFileAddress> </TaskFileAddress>
+      <TaskStatus>false</TaskStatus>
+      <TaskStartDate>2024/11</TaskStartDate>
+      <TaskStartTime>10</TaskStartTime>
+      <Period>0</Period>
+    </HourlyTask>
+	<HourlyTask>
+      <TaskName>HourlyTask2</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder4\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </HourlyTask>
+  </HourlySchedules>
+  <DailySchedules>
+    <DailyTask>
+      <TaskName>DailyTask1</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder5\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </DailyTask>
+	<DailyTask>
+      <TaskName></TaskName>
+      <TaskFileAddress></TaskFileAddress>
+      <TaskStatus>false</TaskStatus>
+      <TaskStartDate>2024/11</TaskStartDate>
+      <TaskStartTime>10</TaskStartTime>
+      <Period>0</Period>
+	 </DailyTask>
+	<DailyTask>
+      <TaskName>DailyTask2</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder6\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </DailyTask>
+  </DailySchedules>
+  <WeeklySchedules>
+    <WeeklyTask>
+      <TaskName>WeeklyTask1</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder7\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </WeeklyTask>
+	<WeeklyTask>
+      <TaskName>  </TaskName>
+      <TaskFileAddress>  </TaskFileAddress>
+      <TaskStatus>false</TaskStatus>
+      <TaskStartDate>2024/11</TaskStartDate>
+      <TaskStartTime>10</TaskStartTime>
+      <Period>0</Period>
+    </WeeklyTask>
+	<WeeklyTask>
+      <TaskName>WeeklyTask2</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder8\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </WeeklyTask>
+  </WeeklySchedules>
+  <MonthlySchedules>
+    <MonthlyTask>
+      <TaskName>MonthlyTask1</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder9\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </MonthlyTask>
+	<MonthlyTask>
+      <TaskName></TaskName>
+      <TaskFileAddress></TaskFileAddress>
+      <TaskStatus>false</TaskStatus>
+      <TaskStartDate>2024</TaskStartDate>
+      <TaskStartTime>10</TaskStartTime>
+      <Period>0</Period>
+    </MonthlyTask>
+	<MonthlyTask>
+      <TaskName>MonthlyTask2</TaskName>
+      <TaskFileAddress>D:\SimpleTaskScheduler\New folder10\HelloWorld.exe</TaskFileAddress>
+      <TaskStatus>true</TaskStatus>
+      <TaskStartDate>2024/11/18</TaskStartDate>
+      <TaskStartTime>11:21</TaskStartTime>
+      <Period>1</Period>
+    </MonthlyTask>
+  </MonthlySchedules>
+</TaskScheduleConfig>
